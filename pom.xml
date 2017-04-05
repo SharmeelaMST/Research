@@ -42,17 +42,13 @@
 	<build>
 		<defaultGoal>deploy</defaultGoal>
 		<sourceDirectory>src/main/java</sourceDirectory>
-		<testSourceDirectory>src/test/java</testSourceDirectory>
+	
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
 			</resource>
 		</resources>
-		<testResources>
-			<testResource>
-				<directory>src/test/resources</directory>
-			</testResource>
-		</testResources>
+	
 		<extensions>
 			<extension>
 				<groupId>org.apache.maven.archetype</groupId>
